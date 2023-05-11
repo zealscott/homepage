@@ -1,0 +1,21 @@
+# - name: Books
+#   link: /books/
+#   dropdown:
+#     - name: How NOT to make a Website
+#       link: /products/how-not-to-make-a-website
+#     - name: How NOT to use a Smartphone
+#       link: /products/how-not-to-use-a-smartphone
+- name: Publications
+  link: /publications
+- name: Resume
+  link: /files/Yuntao_Du_resume.pdf
+# - name: Notes
+#   link: /notes
+- name: Life
+  link: https://life.zealscott.com
+- name: Research
+  link: https://research.zealscott.com
+# - name: Fun stuff
+#   link: /fun/general
+# - name: Useful Links
+#   link: /links

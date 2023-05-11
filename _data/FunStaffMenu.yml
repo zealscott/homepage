@@ -1,0 +1,15 @@
+- label: GENERAL
+  items:
+      - name: Just for fun
+        link: /fun/general
+- label: HOBBY
+  items:
+      - name: Calligraphy
+        link: /fun/calligraphy
+      - name: Violin
+        link: /fun/violin
+- label: TRAVELING
+  items:
+      - name: Just for fun
+        link: /fun/general
+

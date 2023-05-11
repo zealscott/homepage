@@ -1,2 +1,1 @@
-# homepage
-My personal website: zealscott.com
+This is the homepage of `zealscott.com`, maintained by Scott Du, powerd by `jekyll` and `bulma`.

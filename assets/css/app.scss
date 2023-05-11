@@ -1,0 +1,117 @@
+---
+---
+$primary: #4a4a4a;
+$info: #981430;
+
+
+$pagination-current-background-color: $info;
+$pagination-current-border-color: $info;
+
+$navbar-item-color: $primary !important; 
+$navbar-item-hover-background-color: rgb(242, 241, 241) !important;
+
+
+$menu-label-font-size: 0.85em;
+// Import Main CSS file from theme
+@import "main";
+
+
+.hero {
+    .title,
+    .subtitle {
+        text-shadow: 1px 1px rgba($primary, 0.5);
+        animation: appear 1s;
+    }
+}
+
+div.highlight {
+    margin-bottom: 1rem;
+}
+
+@keyframes appear {
+    0% {
+        opacity: 0;
+        transform: translateY(1rem);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Web Fonts */
+/* monda-regular - latin */
+@font-face {
+    font-family: 'Monda';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Monda Regular'), local('Monda-Regular'),
+         url('/fonts/monda-v7-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('/fonts/monda-v7-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  /* monda-700 - latin */
+  @font-face {
+    font-family: 'Monda';
+    font-style: normal;
+    font-weight: 700;
+    src: local('Monda Bold'), local('Monda-Bold'),
+         url('/fonts/monda-v7-latin-700.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('/fonts/monda-v7-latin-700.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  /* julius-sans-one-regular - latin */
+  @font-face {
+    font-family: 'Julius Sans One';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Julius Sans One'), local('JuliusSansOne-Regular'),
+         url('/fonts/julius-sans-one-v6-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('/fonts/julius-sans-one-v6-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+
+/* customize font and size */ 
+  body {
+    font-family: 'Monda', Sans-Serif;
+    font-weight: 400;
+  }
+
+  .content h1,
+  .content h2,
+  .content h3,
+  .content h4,
+  .content h5,
+  .content h6 {
+    font-family: 'Julius Sans One', Sans-Serif;
+    font-weight: 400;
+  }
+  
+  /* Smaller footer */
+  .footer {
+    padding: 1rem 1.5rem 1rem;
+  }
+  
+  /* Table for book descriptions */
+  table.book-desc {
+    margin-top: -15px;
+  }
+  table.book-desc th {
+    padding-right: 15px;
+  }
+  
+  /* extra class for equal-height cards */
+  .bm--card-equal-height {
+     display:flex;
+     flex-direction: column;
+     height: 100%;
+  }
+  .bm--card-equal-height .card-footer {
+     margin-top: auto;
+  }
+  
+  .bm--card-equal-height .card-content {
+    padding: 15px;
+  }
+
+/* web color */
+// .navbar-item{
+//   color: #4A4A4A;
+// }
